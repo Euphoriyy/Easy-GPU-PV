@@ -1,21 +1,21 @@
 ﻿$params = @{
-    VMName = "Win11LABENV"
-    SourcePath = "E:\Users\simon\Downloads\Win11_23H2_English_x64.iso"
+    VMName = "GPUPV"
+    SourcePath = "C:\Users\[YOUR USER]\Downloads\[ISO FILE PATH]"
     Edition    = 6
     VhdFormat  = "VHDX"
     DiskLayout = "UEFI"
-    SizeBytes  = 128GB
+    SizeBytes  = 40GB
     MemoryAmount = 8GB
-    CPUCores = 6
+    CPUCores = 4
     NetworkSwitch = "Default Switch"
-    VHDPath = "D:\Hyper-V\Virtual Hard Disks\"
+    VHDPath = "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks\"
     UnattendPath = "$PSScriptRoot"+"\autounattend.xml"
-    GPUName = "NVIDIA GeForce RTX 2070 SUPER"
+    GPUName = "AUTO"
     GPUResourceAllocationPercentage = 50
     Team_ID = ""
     Key = ""
-    Username = "LABENV"
-    Password = "qwerty"
+    Username = "GPUVM"
+    Password = "CoolestPassword!"
     Autologon = "true"
 }
 
